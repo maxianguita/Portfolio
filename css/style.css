@@ -73,6 +73,7 @@ body {
 
 
 
+
 /* UNIVERSAL START */
 * {
   margin: 0;
@@ -692,7 +693,7 @@ header.sticky ul li a {
 
 @media (max-width: 1600px) {
   .top-banner {
-    padding-top: 100px;
+    padding-top: 00px;
   }
 }
 
@@ -722,13 +723,18 @@ header.sticky ul li a {
     font-size: 50px;
   }
 
-  .top-banner-inner .top-banner-image {
-    width: 50%;
+   .top-banner-inner .top-banner-image {
+    width: 100%;
+  margin-right: 222px;
+    
   }
 
   .top-banner-inner .top-banner-image img {
-    width: 100%;
-  }
+    width: 1600%;
+ 
+    
+    
+  } 
 
   .about-me {
     margin: 150px 0;
@@ -981,7 +987,7 @@ header.sticky ul li a {
 @media (max-width: 620px) {
   .portfolio-wrapper p {
     font-size: 15px;
-    line-height: 20px;
+    line-height: 0px;
   }
 
   .portfolio-wrapper {
@@ -1055,10 +1061,10 @@ header.sticky ul li a {
     margin-left: 0;
   }
 
-  .top-banner-inner .top-banner-image {
-    width: 65%;
-    margin-bottom: 20px;
-  }
+   .top-banner-inner .top-banner-image {
+    width: 100%;
+    margin-bottom: 100px;
+  } 
 
   .top-banner-inner {
     flex-direction: column;
@@ -1125,7 +1131,13 @@ header.sticky ul li a {
     font-size: 13px;
     line-height: 16px;
   }
+
 }
+
+
+
+
+
 .recent-projects {
   font-weight: bold;
   padding: 50px 0;
